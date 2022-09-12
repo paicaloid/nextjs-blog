@@ -10,6 +10,9 @@ export const siteTitle = 'Next.js Sample Website';
 export default function Layout({ children, home }) {
 	return (
 		<div className={styles.container}>
+			<h1 className="text-3xl font-bold underline bg-blue text-pink">
+				Hello world!
+			</h1>
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 				<meta
